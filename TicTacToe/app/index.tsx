@@ -65,7 +65,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.header}>Tic Tac Toe</Text>
       {winner ? (
-        <Text style={styles.winnerText}>Gagnant du joueur : {winner === 'X' ? "1" : "2"}</Text>
+        <Text style={styles.winnerText}>Victoire du joueur : {winner === 'X' ? "1" : "2"}</Text>
       ) : (
         <Text style={styles.infoText}>Tour du joueur : {currentPlayer === 'X' ? "1" : "2"}</Text>
       )}
